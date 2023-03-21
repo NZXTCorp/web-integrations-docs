@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start",
+    "pre-deploy": "next build && next export"
+  },
+  "dependencies": {
+    "@markdoc/markdoc": "^0.2.2",
+    "@markdoc/next.js": "^0.2.2",
+    "next": "latest",
+    "prismjs": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "latest"
+  }
+}
