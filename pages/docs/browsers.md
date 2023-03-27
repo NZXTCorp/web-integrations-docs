@@ -68,7 +68,7 @@ On the Kraken Browser, we are setting a listener on `window` to listen to any ch
 
 On the Configuration Browser, we are setting the `greeting` key in local storage.
 
-## Recap
+## Let's Recap
 
 1. The Kraken Browser displays on the Kraken device and is can be identified by a kraken query parameter injected into the url from CAM.
 2. The Configuration Browser is the entry point where user's can interact, and will not be given a query parameter.
