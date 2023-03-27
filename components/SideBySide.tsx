@@ -17,10 +17,10 @@ export function SideBySide({ children }) {
           .column {
             overflow: auto;
             padding-top: var(--default-vertical-spacing);
+            overflow: hidden;
           }
           .left {
             padding-right: 3rem;
-            border-right: 1px solid var(--toc-border);
           }
           .right {
             padding-left: 3rem;

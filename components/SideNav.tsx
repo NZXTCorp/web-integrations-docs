@@ -12,7 +12,7 @@ const items = [
       },
       { href: "/docs/installation", children: "Installation" },
       {
-        href: "/docs/configuration",
+        href: "/docs/browsers",
         children: "Configuration & Kraken Browsers",
       },
       { href: "/docs/faq", children: "FAQ" },
@@ -88,9 +88,8 @@ export function SideNav() {
           li a {
             text-decoration: none;
           }
-          li a:hover,
-          li.active > a {
-            text-decoration: underline;
+          li :global(a) {
+            text-decoration: none;
           }
           @media screen and (max-width: 600px) {
             nav {

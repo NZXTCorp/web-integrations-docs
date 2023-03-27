@@ -15,6 +15,9 @@ export function Section({ children, className }) {
             margin: 0 auto;
             max-width: var(--landing-page-max-width);
           }
+          .no-padding {
+            padding: 0;
+          }
           @media screen and (max-width: 1000px) {
             div {
               padding: 4rem 0 5.3125rem;

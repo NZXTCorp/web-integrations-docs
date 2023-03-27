@@ -1,15 +1,13 @@
 ---
 title: Customize your Kraken
-description: From personal blogs to massive documentation sites, Markdoc is a content authoring system that grows with you.
+description: Make stunning visualizations and display them directly on your Kraken
 ---
 
 {% section .hero %}
 
 > Use NZXT CAM's Web Integration Mode to stream web applications directly to Kraken displays
 
-[Supported devices](/docs/getting-started) {% .primary %}
-
-[See our docs](/docs/getting-started) {% .primary %}
+[Supported devices](/docs/faq#supported-devices) {% .primary %}
 
 {% section %}
 
@@ -61,10 +59,9 @@ description: From personal blogs to massive documentation sites, Markdoc is a co
 
 {% item %}
 
-## Quick Start {% .jumbo %}
+## Coming Soon {% .jumbo %}
 
-Provided is a TypeScript package for monitoring data to provide better code editor support.
-This package includes all necessary type definitions for the Monitoring data and Kraken's display resolution.
+Create Web Integrations using PC Monitoring data that comes straight from CAM.
 
 {% /item %}
 
@@ -73,14 +70,12 @@ npm install @nzxtcorp/types
 ```
 
 ```js
-import { PCMonitor, PCMonitorKey } from "@nzxtcorp/types";
+import { PC, PCMonitor } from "@nzxtcorp/types";
 
-let pc: PCMonitor | undefined;
+let data: PCMonitor | undefined;
 
-window.addEventListener("storage", (e: StorageEvent) => {
-  if (e.key === PCMonitorKey) {
-    pc = JSON.parse(e.newValue);
-  }
+PCMonitor("v1", (pc) => {
+  data = pc;
 });
 
 const cpu = pc?.cpus[0];

@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gotham+SSm:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-
 *,
 *::before,
 *::after {
@@ -73,7 +72,7 @@ Gotham SSm,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif
   --contrast-dark: var(--dark);
   --code-background: var(--gray-light);
   --code-border: var(--gray-medium);
-  --toc-border: rgba(0, 0, 0, 0.14);
+  --toc-border: --purple;
   --translucent: rgba(0, 0, 0, 0.4);
 
   --docsearch-primary-color: var(--black-medium) !important;
@@ -90,7 +89,7 @@ Gotham SSm,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif
   --contrast-dark: var(--black-medium);
   --code-background: var(--black-medium);
   --code-border: var(--black-light);
-  --toc-border: var(--black-light);
+  --toc-border: var(--purple);
   --translucent: rgba(255, 255, 255, 0.4);
 }
 
@@ -140,7 +139,7 @@ body.modal-is-active {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 1px;
   transition: color 300ms ease;
@@ -164,7 +163,7 @@ a.primary:hover {
 
 .primary a::after,
 a.primary::after {
-  content: '\00a0→';
+  content: '\00a0➜';
   position: relative;
   display: inline-block;
   transition: transform 300ms ease;
