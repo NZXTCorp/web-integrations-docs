@@ -1,12 +1,8 @@
 import * as React from "react";
-import IMG from "next/image";
 export default function Image({ className, src, alt, width, height }) {
   return (
     <>
-      <IMG
-        priority
-        quality={100}
-        loading="eager"
+      <img
         className={["image", className].filter(Boolean).join(" ")}
         src={src}
         alt={alt}
