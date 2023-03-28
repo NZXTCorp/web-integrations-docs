@@ -9,7 +9,13 @@ export function Section({ children, className }) {
           div {
             width: 100%;
             background: var(--light);
-            padding: 130px 0 150px;
+            padding: 130px 0 50px;
+          }
+          .no-background {
+            background: none;
+          }
+          .white-text {
+            color: var(--white);
           }
           section {
             margin: 0 auto;

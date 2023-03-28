@@ -3,13 +3,14 @@ title: Customize your Kraken
 description: Make stunning visualizations and display them directly on your Kraken
 ---
 
-{% section .hero %}
+{% section .hero .no-background .white-text %}
 
 > Use NZXT CAM's Web Integration Mode to stream web applications directly to Kraken displays
 
 [Supported devices](/docs/faq#supported-devices) {% .primary %}
+{% video src="https://stream.mux.com/Un02D7xPL00fDjLRm01tzBU84q2US02YsWsW/high.mp4" width=100 height=100 className="home" / %}
 
-{% section %}
+{% section .no-background %}
 
 {% table %}
 
@@ -19,19 +20,11 @@ description: Make stunning visualizations and display them directly on your Krak
 
   {% item %}
 
-  ### Easy Development {% .jumbo %}
+  ### Development {% .jumbo %}
 
-  No external libaries required. See how CAM communicates with browsers.
+  > No external libaries required. Learn how the NZXT CAM will uses your application to display on Kraken.
 
-  {% /item %}
-
-- {% ascii "card" /%}
-
-  {% item %}
-
-  ### Data {% .jumbo %}
-
-  Access CAM's PC Monitoring data so you can create stunning visualizations at game time
+  > [Learn more](/browsers/#introduction) {% .primary %}
 
   {% /item %}
 
@@ -39,9 +32,11 @@ description: Make stunning visualizations and display them directly on your Krak
 
   {% item %}
 
-  ### Accessible {% .jumbo %}
+  ### Accessibility {% .jumbo %}
 
-  With one click, users can immidiately start displaying your application on Kraken
+  > With one click, users can immidiately start displaying your application on Kraken
+
+  > [Setup](/browsers/#introduction) {% .primary %}
 
   {% /item %}
 
@@ -53,15 +48,15 @@ description: Make stunning visualizations and display them directly on your Krak
 
 {% /section %}
 
-{% section .get-started %}
+{% section .get-started .white-text %}
 
 {% side-by-side %}
 
 {% item %}
 
-## Coming Soon {% .jumbo %}
+### Monitoring data from CAM {% .jumbo %}
 
-Create Web Integrations using PC Monitoring data that comes straight from CAM.
+Soon you will be able to create Web Integrations using monitoring data directly from NZXT CAM. Complete with Typescript definitions and a simple API. This will give you all the data you need to create interactive and informative displays.
 
 {% /item %}
 
@@ -70,20 +65,19 @@ npm install @nzxtcorp/types
 ```
 
 ```js
-import { PC, PCMonitor } from "@nzxtcorp/types";
+import { PC } from "@nzxtcorp/types";
 
-let data: PCMonitor | undefined;
+window.nzxt.v1.monitoringDataUpdate = (pc: PC) => {
+  const { cpus } = pc;
+  const cpu = cpus?.[0];
 
-PCMonitor("v1", (pc) => {
-  data = pc;
-});
-
-const cpu = pc?.cpus[0];
-if (!cpu) return;
-const range = cpu.maxTemperature - cpu.minTemperature;
-const position = (cpu.temperature - cpu.minTemperature) / range;
-
-cpuBar.setAttribute("temperature", position * 100);
+  if (cpu) {
+    const { minTemperature, maxTemperature, temperature } = cpu;
+    const range = maxTemperature - minTemperature;
+    const position = (temperature - minTemperature) / range;
+    cpuBar.setAttribute("temperature", `${position * 100}`);
+  }
+};
 ```
 
 {% /side-by-side %}
