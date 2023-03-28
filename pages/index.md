@@ -24,7 +24,7 @@ description: Make stunning visualizations and display them directly on your Krak
 
   > No external libaries required. Learn how the NZXT CAM will uses your application to display on Kraken.
 
-  > [Learn more](/browsers/#introduction) {% .primary %}
+  > [Learn more](/docs/browsers) {% .primary %}
 
   {% /item %}
 
@@ -36,7 +36,7 @@ description: Make stunning visualizations and display them directly on your Krak
 
   > With one click, users can immidiately start displaying your application on Kraken
 
-  > [Setup](/browsers/#introduction) {% .primary %}
+  > [Setup](/docs/installation) {% .primary %}
 
   {% /item %}
 
