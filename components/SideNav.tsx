@@ -22,18 +22,25 @@ const items = [
     title: "Examples",
     links: [
       {
-        href: "/docs/examples/spotify",
+        href: "https://github.com/NZXTCorp/web-integrations/tree/main/spotify-album-art",
         children: "Spotify Now Playing",
+        target: "_blank",
       },
       {
-        href: "/docs/examples/google",
+        href: "https://github.com/NZXTCorp/web-integrations/tree/main/google-photos-slideshow",
         children: "Google Photo Album Slideshow",
+        target: "_blank",
       },
       {
-        href: "/docs/examples/unsplash",
+        href: "https://github.com/NZXTCorp/web-integrations/tree/main/unsplash-slideshow",
         children: "Unsplash Random Photo",
+        target: "_blank",
       },
-      { href: "/docs/examples/youtube", children: "Youtube Video" },
+      {
+        href: "https://github.com/NZXTCorp/web-integrations/tree/main/youtube-embed",
+        children: "Youtube Video",
+        target: "_blank",
+      },
     ],
   },
 ];

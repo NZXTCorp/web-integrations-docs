@@ -10,7 +10,7 @@ description: Make stunning visualizations and display them directly on your Krak
 [Supported devices](/docs/faq#supported-devices) {% .primary %}
 {% video src="https://stream.mux.com/Un02D7xPL00fDjLRm01tzBU84q2US02YsWsW/high.mp4" width=100 height=100 className="home" / %}
 
-{% section .no-background %}
+{% section .no-background .text-shadow %}
 
 {% table %}
 
@@ -54,7 +54,7 @@ description: Make stunning visualizations and display them directly on your Krak
 
 {% item %}
 
-### Monitoring data from CAM {% .jumbo %}
+### CAM Monitoring Data {% .jumbo %}
 
 Soon you will be able to create Web Integrations using monitoring data directly from NZXT CAM. Complete with Typescript definitions and a simple API. This will give you all the data you need to create interactive and informative displays.
 
@@ -85,5 +85,3 @@ window.nzxt.v1.monitoringDataUpdate = (pc: PC) => {
 {% /section %}
 
 {% section .try .no-mobile %}
-
-{% /section %}

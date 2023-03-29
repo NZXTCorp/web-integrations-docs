@@ -1,8 +1,7 @@
-import { link } from "@markdoc/next.js/src/tags";
-
 import { AppLink } from "../../components/AppLink";
+import { nodes } from "@markdoc/markdoc";
 
-export default {
-  ...link,
+export const link = {
+  ...nodes.link,
   render: AppLink,
 };

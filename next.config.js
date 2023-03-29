@@ -12,10 +12,6 @@ module.exports = withMarkdoc({
     return {
       "/": { page: "/" },
       "/docs/browsers": { page: "/docs/browsers" },
-      "/docs/examples/google": { page: "/docs/examples/google" },
-      "/docs/examples/spotify": { page: "/docs/examples/spotify" },
-      "/docs/examples/unsplash": { page: "/docs/examples/unsplash" },
-      "/docs/examples/youtube": { page: "/docs/examples/youtube" },
       "/docs/faq": { page: "/docs/faq" },
       "/docs/installation": { page: "/docs/installation" },
       "/docs/web-integrations": { page: "/docs/web-integrations" },

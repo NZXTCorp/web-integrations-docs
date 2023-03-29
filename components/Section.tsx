@@ -14,6 +14,9 @@ export function Section({ children, className }) {
           .no-background {
             background: none;
           }
+          .text-shadow {
+            text-shadow: 0 0 4px #000, 2px 0px 2px #000;
+          }
           .white-text {
             color: var(--white);
           }

@@ -30,7 +30,6 @@ export default function Video({ className, src, width, height }) {
             width: 100%;
             height: 870px;
             object-fit: cover;
-            transform: translateY(-5%);
           }
         `}
       </style>

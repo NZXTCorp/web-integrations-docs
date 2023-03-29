@@ -3,7 +3,10 @@ import Link from "next/link";
 
 export function AppLink(props) {
   const target =
-    props.target || (props.href.startsWith("http") ? "_blank" : undefined);
+    props.target ||
+    (props.href.startsWith("https") || props.href.startsWith("http")
+      ? "_blank"
+      : undefined);
 
   return (
     <Link

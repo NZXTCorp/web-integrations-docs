@@ -5,15 +5,15 @@ description: What are Kraken Web Integrations?
 
 # {% $markdoc.frontmatter.title %}
 
-Kraken Web Integrations are applications designed to interface with NZXT's [Kraken](https://nzxt.com/collection/kraken-z) line of CPU liquid coolers with a customizable LCD display on the pump block. [NZXT CAM](https://nzxt.com/software/cam) provides many modes and customization options, but web integrations brings customization to a new level.
+Kraken Web Integrations are applications designed to interface with NZXT's [Kraken](https://nzxt.com/collection/kraken-z) line of CPU liquid coolers with a customizable LCD display on the pump block. [NZXT CAM](https://nzxt.com/software/cam) provides many modes and customization options, but web integrations bring customization to a new level.
 
 ## How does it work?
 
-Kraken Web Integrations allow users to create custom displays and interactions for their Kraken using web technologies such as HTML, CSS, and JavaScript. These integrations utilize [NZXT CAM](https://nzxt.com/software/cam)'s data via the browser to communicate with the device and control its LCD display.
+Kraken Web Integrations allow users to create custom displays and interactions for their Kraken using web technologies such as HTML, CSS, and JavaScript. These integrations utilize [NZXT CAM](https://nzxt.com/software/cam)'s data via the browser to communicate with the device and control the LCD display.
 
 Users can create custom displays to show system performance data such as CPU usage, temperature, and fan speeds. They can also create custom animations, images, and text to display on the LCD screen.
 
-Kraken Web Integrations can be created by anyone with web development skills and can be shared with the community on the Kraken Web Integrations website. Users can browse Web Integrations that have been created by others, or create and submit their own.
+Kraken Web Integrations can be created by anyone with web development skills and be shared with the wider community. Users can browse Web Integrations that have been created by others, or create and submit their own.
 
 ## What are the benefits?
 
@@ -21,7 +21,7 @@ Kraken Web Integrations provide a high level of customization for users who want
 
 Additionally, Kraken Web Integrations can help users monitor their system performance more easily. By displaying real-time data on the Kraken's LCD screen, users can keep an eye on their CPU usage, temperature, and fan speeds without having to open up a monitoring application.
 
-Kraken Web Integrations foster a community of developers and users who can share their creations with each other. This creates a collaborative environment where users can learn from each other and create new and interesting displays for Kraken.
+Our aim with Kraken Web Integrations is to foster a community of developers and users to share their creations with each other, creating a collaborative environment where users learn from each other and create new and interesting visuals.
 
 ## How do I use it?
 

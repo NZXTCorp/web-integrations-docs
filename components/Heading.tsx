@@ -46,7 +46,7 @@ export function Heading({ id = "", level = 1, children, className }) {
           a :global(.heading::after) {
             opacity: 0;
             content: "  #";
-            transition: none;
+            transition: opacity 0.2s ease-in-out;
           }
           a :global(.heading:hover::after) {
             opacity: 1;
