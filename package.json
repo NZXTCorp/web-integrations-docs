@@ -4,7 +4,8 @@
     "dev": "next dev",
     "build": "next build",
     "export": "next export",
-    "start": "next start"
+    "start": "next start",
+    "pre-deploy": "next build && next export"
   },
   "dependencies": {
     "@markdoc/markdoc": "^0.2.2",

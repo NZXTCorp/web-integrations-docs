@@ -5,7 +5,7 @@ description: Web Integration to display album art from Spotify
 
 # {% $markdoc.frontmatter.title %}
 
-[Spotify Album Art](https://github.com/NZXTCorp/web-integrations/tree/main/spotify-album-art) enables users to display their favorite album art on their Kraken LCD devices. This application intends to provide a seamless experience for users who want to display album art on their Kraken LCD devices.
+[Spotify Album Art](https://github.com/NZXTCorp/web-integrations/tree/main/spotify-album-art) enables users to display their favorite album art on their Kraken LCD devices.
 
 ## Authentication
 
