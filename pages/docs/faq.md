@@ -25,4 +25,4 @@ Join our community to get help or to stay up to date with the latest from NZXT.
 
 ## Bugs
 
-If you've found any issues relating to NZXT CAM or Web Integration Mode please reach out to us or submit a technical support ticket [here](https://support.nzxt.com/hc/en-us/requests/new).
+If you've found any issues relating to NZXT CAM or Web Integration Mode please submit an issue on our repo [here](https://github.com/NZXTCorp/web-integrations-docs).
