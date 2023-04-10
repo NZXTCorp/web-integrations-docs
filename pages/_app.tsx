@@ -30,7 +30,7 @@ function collectHeadings(node, sections = []) {
       if (typeof title === "string") {
         sections.push({
           ...node.attributes,
-          title,
+          title
         });
       }
     }
@@ -67,12 +67,16 @@ export default function MyApp(props) {
   const isDocs = props.router.asPath.startsWith("/docs");
   const isLandingPage = props.router.pathname === "/";
 
+  if (isLandingPage) {
+    title = "";
+  }
+
   return (
     <div className={`${isLandingPage ? "page--landing" : ""}`}>
       <Head>
-        <title>{`${TITLE} | ${title}`}</title>
-        <link rel="shortcut icon" href="/favicon.ico" />
-        <link rel="icon" href="/favicon.ico" />
+        <title>{`${TITLE}  ${title ? `| ${title}` : ""}`}</title>
+        <link rel="shortcut icon" href="/static/favicon.ico" />
+        <link rel="icon" href="/static/favicon.ico" />
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="referrer" content="strict-origin" />

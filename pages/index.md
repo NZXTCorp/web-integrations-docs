@@ -56,7 +56,7 @@ description: Make stunning visualizations and display them directly on your Krak
 
 ### CAM Monitoring Data {% .jumbo %}
 
-Soon you will be able to create Web Integrations using monitoring data directly from NZXT CAM. Complete with Typescript definitions and a simple API. This will give you all the data you need to create interactive and informative displays.
+Create Web Integrations using monitoring data directly from NZXT CAM. Complete with Typescript definitions and a simple API. This will give you all the data you need to create interactive and informative displays.
 
 {% /item %}
 
@@ -65,17 +65,13 @@ npm install @nzxtcorp/types
 ```
 
 ```js
-import { PC } from "@nzxtcorp/types";
+import { MonitoringData } from "@nzxtcorp/types";
 
-window.nzxt.v1.monitoringDataUpdate = (pc: PC) => {
-  const { cpus } = pc;
-  const cpu = cpus?.[0];
-
-  if (cpu) {
-    const { minTemperature, maxTemperature, temperature } = cpu;
-    const range = maxTemperature - minTemperature;
-    const position = (temperature - minTemperature) / range;
-    cpuBar.setAttribute("temperature", `${position * 100}`);
+window.nzxt = {
+  v1: {
+    monitoringDataUpdate: (data: MonitoringData) => {
+      const { cpus, gpus, ram } = data;
+    }
   }
 };
 ```

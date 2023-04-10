@@ -1,11 +1,11 @@
 const withMarkdoc = require("@markdoc/next.js");
 
 module.exports = withMarkdoc({
-  mode: "static",
+  mode: "static"
 })({
   trailingSlash: true,
   images: {
-    unoptimized: true,
+    unoptimized: true
   },
   pageExtensions: ["js", "jsx", "ts", "tsx", "md", "mdoc"],
   exportPathMap: async function () {
@@ -14,7 +14,7 @@ module.exports = withMarkdoc({
       "/docs/browsers": { page: "/docs/browsers" },
       "/docs/faq": { page: "/docs/faq" },
       "/docs/installation": { page: "/docs/installation" },
-      "/docs/web-integrations": { page: "/docs/web-integrations" },
+      "/docs/web-integrations": { page: "/docs/web-integrations" }
     };
-  },
+  }
 });

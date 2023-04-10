@@ -5,29 +5,25 @@ description: What are Kraken Web Integrations?
 
 # {% $markdoc.frontmatter.title %}
 
-Kraken Web Integrations are applications designed to interface with NZXT's [Kraken](https://nzxt.com/collection/kraken-z) line of CPU liquid coolers with a customizable LCD display on the pump block. [NZXT CAM](https://nzxt.com/software/cam) provides many modes and customization options, but web integrations bring customization to a new level.
+Web Integrations are applications designed to interface with NZXT's [Kraken](https://nzxt.com/collection/kraken-z) line of CPU liquid coolers with LCD displays on the pump block. [NZXT CAM](https://nzxt.com/software/cam) offers a variety of modes and customization options, web integrations elevate the experience to a whole new level.
 
 ## How does it work?
 
-Kraken Web Integrations allow users to create custom displays and interactions for their Kraken using web technologies such as HTML, CSS, and JavaScript. These integrations utilize [NZXT CAM](https://nzxt.com/software/cam)'s data via the browser to communicate with the device and control the LCD display.
+When Web Integration Mode is enabled, CAM will render the specified URL in an internal web browser, and any content displayed in this browser will be shown on the Kraken's LCD screen.
 
-Users can create custom displays to show system performance data such as CPU usage, temperature, and fan speeds. They can also create custom animations, images, and text to display on the LCD screen.
-
-Kraken Web Integrations can be created by anyone with web development skills and be shared with the wider community. Users can browse Web Integrations that have been created by others, or create and submit their own.
+Essential data for the web application, such as the device resolution or monitoring data is provided. This allows for the creation of new custom visuals using familiar web technologies like HTML, JavaScript, and CSS.
 
 ## What are the benefits?
 
-Kraken Web Integrations provide a high level of customization for users who want to personalize their Kraken. This allows users to create unique visuals that show the information they find most important or interesting.
+Web Integrations provide an unlimited level of customization. Users can create unique visuals that show the information they find most important or interesting.
 
-Additionally, Kraken Web Integrations can help users monitor their system performance more easily. By displaying real-time data on the Kraken's LCD screen, users can keep an eye on their CPU usage, temperature, and fan speeds without having to open up a monitoring application.
+Kraken Web Integrations can help users monitor their system performance more easily. By displaying real-time data on the Kraken's LCD screen, users can keep an eye on their CPU usage, temperature, and fan speeds without having to open up a monitoring application.
 
-Our aim with Kraken Web Integrations is to foster a community of developers and users to share their creations with each other, creating a collaborative environment where users learn from each other and create new and interesting visuals.
+Our aim with Web Integrations is to let you in on the fun. We want to give you the tools to create your own unique displays and share them with the community. We are excited to see what you come up with!
 
 ## How do I use it?
 
-To get started with Kraken Web Integrations, you will need to have a [supported](/docs/faq#supported-devices) NZXT cooler and NZXT CAM software installed on your system. The Web Integrations API is part of NZXT CAM in Web Integration Mode, so it is not required to install anything else to start using it.
-
-You can find more information about how use Web Integration Mode on the [Installation](/docs/installation) page.
+To get started with Kraken Web Integrations, you will need to have a [supported](/docs/faq#supported-devices) NZXT cooler and NZXT CAM software installed on your system. Enable Web Integration Mode. Then you can start testing out your own Web Integrations under the custom option.
 
 ## Next steps
 
