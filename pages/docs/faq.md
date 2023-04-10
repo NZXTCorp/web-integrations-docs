@@ -19,9 +19,9 @@ Join our community to get help or to stay up to date with the latest from NZXT.
 
 ## Supported Devices
 
-- Kraken Elite
+- Kraken
 - Kraken Z
-- Kraken Base
+- Kraken Elite
 
 ## Bugs
 
