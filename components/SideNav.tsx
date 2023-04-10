@@ -8,7 +8,7 @@ const items = [
     links: [
       {
         href: "/docs/web-integrations",
-        children: "What are Kraken Web Integrations?",
+        children: "What are Web Integrations?",
       },
       { href: "/docs/installation", children: "Installation" },
       {

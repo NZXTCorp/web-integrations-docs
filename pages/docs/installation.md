@@ -8,7 +8,7 @@ description: Installation and Setup
 ## Software
 
 [Download](https://nzxt-app.nzxt.com/NZXT-CAM-Setup.exe) and install NZXT CAM.
-When installation is complete, launch NZXT CAM and ensure that your Kraken liquid cooler is connected.
+When installation is complete, launch NZXT CAM and ensure that your NZXT Kraken Series AIO liquid cooler is connected.
 
 ## Enabling Web Integration Mode
 

@@ -7,7 +7,7 @@ description: Learn about Configuration & Kraken Browsers
 
 ## Introduction
 
-Web Integration mode relies on two browsers we call Kraken Browser and Configuration Browser. Kraken Browser will render the content and send it to your Kraken device and Configuration Browser will be the entrypoint for the user of your application to change any options or interaction you provide.
+Web Integration mode relies on two browsers we call Kraken Browser and Configuration Browser. Kraken Browser will render the content and send it to your NZXT Kraken device and Configuration Browser will be the entrypoint for the user of your application to change any options or interaction you provide.
 
 The browsers share common session data which means state can be fully controlled by the web integration with the supplied URL.
 
@@ -35,7 +35,7 @@ const kraken = searchParams.get("kraken");
 
 ## Cookies
 
-In addition to the query parameter supplied by Kraken Browser, CAM will also inject a cookie called `viewstate` into session. This cookie contains the resolution of the current Kraken device. It is recommended to use this cookie to determine the resolution of the Kraken device and adjust your application's view accordingly.
+In addition to the query parameter supplied by Kraken Browser, CAM will also inject a cookie called `viewstate` into session. This cookie contains the resolution of the current NZXT Kraken device. It is recommended to use this cookie to determine the resolution of the NZXT Kraken device and adjust your application's view accordingly.
 
 ```ts
 const viewstate = getCookie("viewstate");
@@ -92,9 +92,9 @@ If CAM detects that you are using the `onMonitoringDataUpdate` function on windo
 ## Let's Recap
 
 1. Configuration Browser is the entry point where user's can interact, and will not be given a query parameter.
-2. Kraken Browser displays on the Kraken device and is can be identified by a kraken query parameter injected into the url from CAM.
+2. Kraken Browser displays on the NZXT Kraken device and is can be identified by a query parameter `kraken` injected into the url from CAM.
 3. Both browsers share session data. Session data examples include cookies and local storage.
-4. CAM provides the `viewstate` cookie to session so your application input to CAM can determine the resolution of the Kraken device.
+4. CAM provides the `viewstate` cookie to session so your application input to CAM can determine the resolution of the NZXT Kraken device.
 5. CAM provides the query parameter `kraken="1"` to the Kraken Browser, so views can be differentiated between the Kraken Browser and the Configuration Browser.
 6. CAM provides the `onMonitoringDataUpdate` function on window so you can receive monitoring data from CAM.
 
