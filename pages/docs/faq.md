@@ -21,7 +21,7 @@ Join our community to get help or to stay up to date with the latest from NZXT.
 
 - Kraken Elite
 - Kraken Z
-- Kraken Base
+- Kraken
 
 ## Bugs
 
