@@ -1,13 +1,15 @@
 ---
-title: Customize your Kraken
-description: Make stunning visualizations and display them directly on your Kraken
+title: Web Integrations for the NZXT Kraken Series
+description: Make stunning visualizations and display them directly on your NZXT Kraken
 ---
 
 {% section .hero .no-background .white-text %}
 
-> Use NZXT CAM's Web Integration Mode to stream web applications directly to Kraken displays
+# {% $markdoc.frontmatter.title %}
 
-[Supported devices](/docs/faq#supported-devices) {% .primary %}
+> Use NZXT CAM's Web Integration Mode to stream custom web integrations directly to NZXT Kraken displays.
+
+[See supported devices](/docs/faq#supported-devices) {% .primary %}
 {% video src="https://stream.mux.com/Un02D7xPL00fDjLRm01tzBU84q2US02YsWsW/high.mp4" width=100 height=100 className="home" / %}
 
 {% section .no-background .text-shadow %}
@@ -22,9 +24,9 @@ description: Make stunning visualizations and display them directly on your Krak
 
   ### Development {% .jumbo %}
 
-  > No external libaries required. Learn how the NZXT CAM will uses your application to display on Kraken
+  > It's easy to make your own custom web integration - all you need is some knowledge of HTML, CSS, and/or Javascript. No external libraries are required!
 
-  > [Learn more](/docs/browsers) {% .primary %}
+  > [Get Started](/docs/browsers) {% .primary %}
 
   {% /item %}
 
@@ -32,11 +34,11 @@ description: Make stunning visualizations and display them directly on your Krak
 
   {% item %}
 
-  ### Accessibility {% .jumbo %}
+  ### Share with the community {% .jumbo %}
 
-  > With one click, users can immidiately start displaying your application on Kraken
+  > With one click, users can immediately displaying your web integration on their NZXT Kraken series AIO liquid cooler.
 
-  > [Setup](/docs/installation) {% .primary %}
+  > [Display a custom web integration](/docs/installation) {% .primary %}
 
   {% /item %}
 
@@ -54,9 +56,9 @@ description: Make stunning visualizations and display them directly on your Krak
 
 {% item %}
 
-### CAM Monitoring Data {% .jumbo %}
+### NZXT CAM Monitoring Data {% .jumbo %}
 
-Create Web Integrations using monitoring data directly from NZXT CAM. Complete with Typescript definitions and a simple API. This will give you all the data you need to create interactive and informative displays.
+Want to create a web integration using NZXT CAM monitoring data? We provide a simple API with Typescript definitions directly from NZXT CAM - so you can build engaging and informative visualizations.
 
 {% /item %}
 
@@ -71,6 +73,9 @@ window.nzxt = {
   v1: {
     onMonitoringDataUpdate: (data: MonitoringData) => {
       const { cpus, gpus, ram } = data;
+
+      // build cool visualizations with this data!
+
     }
   }
 };
