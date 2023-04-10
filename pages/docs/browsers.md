@@ -75,6 +75,20 @@ On the Kraken Browser, we are setting a listener on `window` to listen to any ch
 
 On the Configuration Browser, we are setting the `greeting` key in local storage.
 
+## Monitoring Data
+
+```ts
+window.nzxt = {
+  v1: {
+    onMonitoringDataUpdate: (data) => {
+      const { cpus, gpus, ram } = data;
+    }
+  }
+};
+```
+
+If CAM detects that you are using the `onMonitoringDataUpdate` function on window, it will begin sending monitoring data to your application. This data is sent every second and contains data related to your Cpus, Gpus, and RAM.
+
 ## Let's Recap
 
 1. Configuration Browser is the entry point where user's can interact, and will not be given a query parameter.
@@ -82,6 +96,7 @@ On the Configuration Browser, we are setting the `greeting` key in local storage
 3. Both browsers share session data. Session data examples include cookies and local storage.
 4. CAM provides the `viewstate` cookie to session so your application input to CAM can determine the resolution of the Kraken device.
 5. CAM provides the query parameter `kraken="1"` to the Kraken Browser, so views can be differentiated between the Kraken Browser and the Configuration Browser.
+6. CAM provides the `onMonitoringDataUpdate` function on window so you can receive monitoring data from CAM.
 
 ## Next Steps
 

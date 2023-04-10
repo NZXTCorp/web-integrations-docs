@@ -61,15 +61,15 @@ Create Web Integrations using monitoring data directly from NZXT CAM. Complete w
 {% /item %}
 
 ```shell
-npm install @nzxtcorp/types
+npm install @nzxt/web-integrations-types
 ```
 
 ```js
-import { MonitoringData } from "@nzxtcorp/types";
+import { MonitoringData } from "@nzxt/web-integrations-types/v1";
 
 window.nzxt = {
   v1: {
-    monitoringDataUpdate: (data: MonitoringData) => {
+    onMonitoringDataUpdate: (data: MonitoringData) => {
       const { cpus, gpus, ram } = data;
     }
   }
