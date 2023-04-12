@@ -87,7 +87,13 @@ window.nzxt = {
 };
 ```
 
-If CAM detects that you are using the `onMonitoringDataUpdate` function on window, it will begin sending monitoring data to your application. This data is sent every second and contains data related to your Cpus, Gpus, and RAM.
+If CAM detects that you are using the `onMonitoringDataUpdate` function on window, it will begin sending monitoring data to your application. This data is sent every second and contains data related to your Cpus, Gpus, and Ram.
+
+### Data Types
+
+For the full details see our github [repo](https://github.com/NZXTCorp/web-integrations-types).
+
+Download `@nzxt/web-integrations-types` from [npm](https://www.npmjs.com/package/@nzxt/web-integrations-types) to use the full monitoring types.
 
 ## Let's Recap
 
@@ -102,7 +108,7 @@ If CAM detects that you are using the `onMonitoringDataUpdate` function on windo
 
 Check out some of our Web Integration Examples
 
-- [Spotify Now Playing](https://github.com/NZXTCorp/web-integrations/tree/main/spotify-album-art)
-- [Google Photo Album Slideshow](https://github.com/NZXTCorp/web-integrations/tree/main/google-photos-slideshow)
-- [Unsplash Random Photo](https://github.com/NZXTCorp/web-integrations/tree/main/unsplash-slideshow)
-- [Youtube Video](https://github.com/NZXTCorp/web-integrations/tree/main/youtube-embed)
+- [Spotify Now Playing](https://github.com/NZXTCorp/web-integrations-examples/tree/main/spotify-album-art)
+- [Google Photo Album Slideshow](https://github.com/NZXTCorp/web-integrations-examples/tree/main/google-photos-slideshow)
+- [Unsplash Random Photo](https://github.com/NZXTCorp/web-integrations-examples/tree/main/unsplash-slideshow)
+- [Youtube Video](https://github.com/NZXTCorp/web-integrations-examples/tree/main/youtube-embed)

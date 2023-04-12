@@ -8,41 +8,41 @@ const items = [
     links: [
       {
         href: "/docs/web-integrations",
-        children: "What are Web Integrations?",
+        children: "What are Web Integrations?"
       },
       { href: "/docs/installation", children: "Installation" },
       {
         href: "/docs/browsers",
-        children: "Configuration & Kraken Browsers",
+        children: "Configuration & Kraken Browsers"
       },
-      { href: "/docs/faq", children: "FAQ" },
-    ],
+      { href: "/docs/faq", children: "FAQ" }
+    ]
   },
   {
     title: "Examples",
     links: [
       {
-        href: "https://github.com/NZXTCorp/web-integrations/tree/main/spotify-album-art",
+        href: "https://github.com/NZXTCorp/web-integrations-examples/tree/main/spotify-album-art",
         children: "Spotify Now Playing",
-        target: "_blank",
+        target: "_blank"
       },
       {
-        href: "https://github.com/NZXTCorp/web-integrations/tree/main/google-photos-slideshow",
+        href: "https://github.com/NZXTCorp/web-integrations-examples/tree/main/google-photos-slideshow",
         children: "Google Photo Album Slideshow",
-        target: "_blank",
+        target: "_blank"
       },
       {
-        href: "https://github.com/NZXTCorp/web-integrations/tree/main/unsplash-slideshow",
+        href: "https://github.com/NZXTCorp/web-integrations-examples/tree/main/unsplash-slideshow",
         children: "Unsplash Random Photo",
-        target: "_blank",
+        target: "_blank"
       },
       {
-        href: "https://github.com/NZXTCorp/web-integrations/tree/main/youtube-embed",
+        href: "https://github.com/NZXTCorp/web-integrations-examples/tree/main/youtube-embed",
         children: "Youtube Video",
-        target: "_blank",
-      },
-    ],
-  },
+        target: "_blank"
+      }
+    ]
+  }
 ];
 
 export function SideNav() {
