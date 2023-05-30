@@ -3,14 +3,13 @@ title: Web Integrations for the NZXT Kraken Series
 description: Make stunning visualizations and display them directly on your NZXT Kraken
 ---
 
-{% section .hero .no-background .white-text %}
+{% section video="https://stream.mux.com/Un02D7xPL00fDjLRm01tzBU84q2US02YsWsW/high.mp4" .no-background .white-text %}
 
 # {% $markdoc.frontmatter.title %}
 
 > Use NZXT CAM's Web Integration Mode to stream custom web integrations directly to NZXT Kraken displays.
 
-[See supported devices](/docs/faq#supported-devices) {% .primary %}
-{% video src="https://stream.mux.com/Un02D7xPL00fDjLRm01tzBU84q2US02YsWsW/high.mp4" width=100 height=100 className="home" / %}
+> [See supported devices](/docs/faq#supported-devices) {% .primary %}
 
 {% section .no-background .text-shadow %}
 
@@ -36,7 +35,7 @@ description: Make stunning visualizations and display them directly on your NZXT
 
   ### Share with the community {% .jumbo %}
 
-  > With one click, users can immediately displaying your web integration on their NZXT Kraken series AIO liquid cooler.
+  > With one click, users can immediately display your web integration on their NZXT Kraken series AIO liquid cooler.
 
   > [Display a custom web integration](/docs/installation) {% .primary %}
 
