@@ -40,6 +40,11 @@ const items = [
         href: "https://github.com/NZXTCorp/web-integrations-examples/tree/main/youtube-embed",
         children: "Youtube Video",
         target: "_blank"
+      },
+      {
+        href: "https://github.com/NZXTCorp/web-integrations-examples/blob/main/community.md",
+        children: "Community Submissions",
+        target: "_blank"
       }
     ]
   }
