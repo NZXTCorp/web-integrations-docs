@@ -114,3 +114,4 @@ Check out some of our Web Integration Examples
 - [Google Photo Album Slideshow](https://github.com/NZXTCorp/web-integrations-examples/tree/main/google-photos-slideshow)
 - [Unsplash Random Photo](https://github.com/NZXTCorp/web-integrations-examples/tree/main/unsplash-slideshow)
 - [Youtube Video](https://github.com/NZXTCorp/web-integrations-examples/tree/main/youtube-embed)
+- [Community](https://github.com/NZXTCorp/web-integrations-examples/blob/main/community.md)

@@ -5,9 +5,9 @@ description: About Web Integrations
 
 # {% $markdoc.frontmatter.title %}
 
-## Share us your creations
+## Community Submissions
 
-We'd can't wait to see what you create with Web Integration Mode. Share us your creations on [Twitter](https://twitter.com/NZXT) or submit a pull request on our [docs](https://github.com/nzxtcorp/web-integrations-docs).
+We encourage the community to [submit](https://github.com/NZXTCorp/web-integrations-examples/blob/main/submissions.md) their own Web Integrations to our repo! We'll review your submission and if it meets our basic requirements we'll list it in our [community projects](https://github.com/NZXTCorp/web-integrations-examples/blob/main/community.md) list.
 
 ## Troubleshooting
 
