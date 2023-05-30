@@ -1,12 +1,15 @@
 import * as React from "react";
+import Video from "./Video";
 
-export function Section({ children, className }) {
+export function Section({ children, className, video }) {
   return (
     <div className={["section", className].filter(Boolean).join(" ")}>
+      {video && <Video src={video} />}
       <section>{children}</section>
       <style jsx>
         {`
           div {
+            position: relative;
             width: 100%;
             background: var(--light);
             padding: 130px 0 50px;
